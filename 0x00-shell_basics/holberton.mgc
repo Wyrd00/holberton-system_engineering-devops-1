@@ -1,3 +1,2 @@
 #!/bin/bash
-file HOLBERTON --mime-type 
-HOLBERTON offset: 0
+file HOLBERTON >0 --mime-type 
