@@ -1,1 +1,2 @@
-!/bin/bash
+#!/bin/bash
+grep -v --regexp="bin" /etc/passwd

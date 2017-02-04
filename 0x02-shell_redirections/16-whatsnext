@@ -1,1 +1,2 @@
-!/bin/bash
+#!/bin/bash
+grep --regexp="root" -3 /etc/passwd
