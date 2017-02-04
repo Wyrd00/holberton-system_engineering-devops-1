@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo cat | tail /etc/passwd
+sudo cat /etc/passwd | tail
