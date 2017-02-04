@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
-cut -c 1
-=======
-cut -c 1 | tr -d '\n'
->>>>>>> 73c1095dab341194b8a0f59aafab2638849e1acb
+cut -c 1 | tr -d '\n' | sort
