@@ -1,2 +1,2 @@
-#!/bash/bin
-
+#!/bin/bash
+printf '%s\n' {a..z}+{a..z}| tr -d '+' | grep -v 'oo' | sort
