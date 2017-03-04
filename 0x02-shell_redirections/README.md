@@ -37,20 +37,20 @@
 ###17-hidethisword
 ######Script that display all the lines in the file /etc/passwd that do not contain the pattern 'bin'
 ###18-letteronly
-####Script that display all the lines of the file /etc/ssh/sshd_config stating with a letter
+######Script that display all the lines of the file /etc/ssh/sshd_config stating with a letter
 ###19-AZ
-####Script that replace all characters A and c from Z and e
+######Script that replace all characters A and c from Z and e
 ###20-hiago
-####Script that removes all letters c and C from input
+######Script that removes all letters c and C from input
 ###21-reverse
-####Script that reverses its input
+######Script that reverses its input
 ###22-users_homes
-####Scipr that displays all users and their home directories, sorted by users
+######Script that displays all users and their home directories, sorted by users
 ###100-empty_casks
-####Script that finds all empty files and directories in the current directory and sub-directories
+######Script that finds all empty files and directories in the current directory and sub-directories
 ###101-gifs
-####Script that lists all the files with a .gif extension in current and sub
+######Script that lists all the files with a .gif extension in current and sub
 ###102-acrostic
-####Script that decodes acrostics
+######Script that decodes acrostics
 ###103-the_biggest_fan
-####Scipr that parses web server logs in TSV format and displays 11 hosts/ip that did the most requests
+######Scipr that parses web server logs in TSV format and displays 11 hosts/ip that did the most requests
