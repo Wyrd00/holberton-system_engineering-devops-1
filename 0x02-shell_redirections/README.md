@@ -1,7 +1,7 @@
 # This project is about shell scripts
 
 ###0-hello_world
-####Script that prints "Hello, World" to standard output followed by newline.
+######Script that prints "Hello, World" to standard output followed by newline.
 ###1-confused smiley
 ####Script that displays a confused smiley
 ###2-hellofile
