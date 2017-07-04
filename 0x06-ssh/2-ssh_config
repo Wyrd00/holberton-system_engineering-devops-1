@@ -1,0 +1,3 @@
+Host 66.70.184.249
+ HostName 66.70.184.249
+ IdentityFile ~/.ssh/holberton
