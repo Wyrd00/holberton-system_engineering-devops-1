@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash script that configures a new Ubuntu machine to respect requirements
+apt-get -y install nginx
+echo "Holberton School" | /usr/share/nginx/html/index.html
