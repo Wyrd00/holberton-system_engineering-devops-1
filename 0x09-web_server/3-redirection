@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Bash script to automatically configure Ubuntu machine to requirements
 sudo service nginx start
-sed "/server_name localhost;/a location /redirect_me { return 301 localhost$requesturi; }/" /etc/nginx/sites-enabled/default
+sudo sed -i "/server_name localhost;/a location /redirect_me { return 301 redirect_me.html; }" /etc/nginx/sites-enabled/default
