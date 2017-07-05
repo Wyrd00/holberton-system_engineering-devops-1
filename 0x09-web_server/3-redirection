@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
 # Bash script to automatically configure Ubuntu machine to requirements
-sudo service nginx start
-sudo sed -i "/server_name localhost;/a location /redirect_me { return 301 redirect_me.html; }" /etc/nginx/sites-enabled/default
+apt-get update
+apt-get -y install nginx
+service nginx start
+echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
+sed -i "/#error_page 404 \/404.html;/ a\\\n\\tlocation /redirect_me {\\n\\t\\trewrite ^/redirect_me https://www.google.com permanent;\\n\\t}" /etc/nginx/sites-available/default
+service nginx reload
+service nginx restart
