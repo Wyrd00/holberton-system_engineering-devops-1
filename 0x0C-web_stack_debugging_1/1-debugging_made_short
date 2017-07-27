@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Bash script that configures server to above requirement
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-service nginx restart
+service nginx start
 rm /run/nginx.pid
