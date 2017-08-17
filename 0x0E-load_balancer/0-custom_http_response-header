@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Bash script to automatically configure Ubuntu machine to requirements
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo service nginx start
+PATTERN="^\tlocation \/ {$"
+STRING="\tlocation \/ {\n\t\tadd_header X-Served-By $HOSTNAME;"
+sudo sed -i "s/$PATTERN/$STRING/g" /etc/nginx/sites-available/default
+sudo service nginx reload
+sudo service nginx restart
