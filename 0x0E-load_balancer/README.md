@@ -1,1 +1,1 @@
-This project is about load-balancing
+This project is about load-balancing and load balancers
