@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+1#!/usr/bin/env bash
 # Bash script to install HAProxy load balancer
 sudo echo deb http://archive.ubuntu.com/ubuntu trusty-backports main universe | \
       sudo tee /etc/apt/sources.list.d/backports.list
