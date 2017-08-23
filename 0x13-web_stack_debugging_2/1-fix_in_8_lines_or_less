@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Bash script to run Nginx as the nginx user
+pkill apache2
+sed -i 's/^\tlisten 80 default_server;$/\tlisten 8080 default_server;/' /etc/nginx/sites-enabled/default
+sed -i 's/\[\:\:\]\:80/\[\:\:\]\:8080/' /etc/nginx/sites-enabled/default
+sed -i '/#user www-data;/a user nginx;' /etc/nginx/nginx.conf
+service nginx reload
+service nginx restart
