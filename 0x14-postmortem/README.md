@@ -23,5 +23,5 @@ Since only two files were changed, at 4:56 PM the Engineer ran `service nginx -c
 ### Corrective and Preventative Measures
 
 After a day of internal review and analysis, the following preventative measures were made. 
-After local testing, testing should be made on the files itself before implementation via script. 
-When changes made via the `nginx.conf` file, the engineer should run the nginx script (`service nginx -c /etc/nginx/nginx.conf -t`) to check if there were any syntax issues.
+- After local testing, testing should be made on the files itself before implementation via script. 
+- When changes made via the `nginx.conf` file, the engineer should run the nginx script (`service nginx -c /etc/nginx/nginx.conf -t`) to check if there were any syntax issues.
