@@ -1,8 +1,10 @@
-Issue Summary
-From 4:45 PM to 5:28 PM PST, Nginx failed to restart on both servers web-01 and web-02, resulting in 500 response messages returned. The domain, holbertonschool.online was inaccessbile to user(s), affecting 100% of the traffic. The root cause of this outage was an invalid syntax on the nginx confirguration file, causing nginx to fail to restart properly. 
+# 0x11. Postmortem
 
-Timeline (Pacific Standard Time)
-4:45 PM: Configuration changes made and pushed to implement a new user, Nginx
+### Issue Summary
+From 4:45 PM to 5:28 PM PST, Nginx failed to restart on both servers `web-01` and `web-02`, resulting in 500 response messages returned. The domain, `holbertonschool.online` was inaccessbile to user(s), affecting 100% of the traffic. The root cause of this outage was an invalid syntax on the nginx confirguration file, causing nginx to fail to restart properly. 
+
+### Timeline (All Pacific Standard Time)
+- **4:45 PM:** Configuration changes made and pushed to implement a new user, Nginx
 4:50 PM: Outage begins when the Engineer notices the servers failed to restart
 4:55 PM: Engineer stops web-01 and rollsback to the backup configuration file
 4:56 PM: Engineer run a nginx script to detect if the is issue were changes made to the configuration file
