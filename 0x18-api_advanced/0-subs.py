@@ -21,4 +21,6 @@ def number_of_subscribers(subreddit):
     reddit_resp_json = reddit_response.json()
     data = reddit_resp_json.get("data")
     sub_count = data.get("subscribers")
+    if not sub_count:
+        return 0
     return sub_count
