@@ -83,7 +83,7 @@ CREATE TABLE `users` (
 ## Known Bugs
 There are no known bugs at the time.
 
-### Authors
+### Author
 *Kimberly Wong* - [Github](https://github.com/kjowong) || [Twitter](https://twitter.com/kjowong) || [email](kimberly.wong@holbertonschool.com)
 
 
