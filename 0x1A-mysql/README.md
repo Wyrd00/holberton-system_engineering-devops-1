@@ -13,9 +13,9 @@ Once cloned over, the repository will contain the following files:
 
 |   **File**    |  **Decription**                       |
 |---------------|---------------------------------------|
-| 0\-mysql_configuration_primary   | MySQL configuration file for primary server (web-01)           |
-| '0\-mysql_configuration_replica'      | MySQL configuration file for replica server (web-02)         |
-| '1\-mysql_backup'     | Bash script that generates a MySQL dump and creates a compressed archive out of it             |
+| 0-mysql_configuration_primary   | MySQL configuration file for primary server (web-01)           |
+| 0\-mysql_configuration_replica      | MySQL configuration file for replica server (web-02)         |
+| 1\-mysql_backup     | Bash script that generates a MySQL dump and creates a compressed archive out of it             |
 
 
 ## How to Use 1-mysql_backup
